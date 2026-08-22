@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="210" viewBox="0 0 980 210" role="img" aria-labelledby="title desc">
+  <title id="title">End-to-end latency pipeline</title>
+  <desc id="desc">User request flows through retrieval, prompt construction, Gemini, validation, and the user interface.</desc>
+  <style>
+    text{font-family:Arial,sans-serif;font-size:16px;fill:#17202a}.box{fill:#f7fbff;stroke:#1f77b4;stroke-width:2;rx:6}.accent{fill:#e8f5e9;stroke:#2e7d32}.arrow{stroke:#455a64;stroke-width:2;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#455a64"/></marker></defs>
+  <rect x="20" y="70" width="130" height="70" class="box"/><text x="85" y="110" text-anchor="middle">User request</text>
+  <line x1="150" y1="105" x2="190" y2="105" class="arrow"/>
+  <rect x="190" y="70" width="130" height="70" class="box accent"/><text x="255" y="100" text-anchor="middle">Local</text><text x="255" y="120" text-anchor="middle">retrieval</text>
+  <line x1="320" y1="105" x2="360" y2="105" class="arrow"/>
+  <rect x="360" y="70" width="140" height="70" class="box"/><text x="430" y="100" text-anchor="middle">Prompt</text><text x="430" y="120" text-anchor="middle">construction</text>
+  <line x1="500" y1="105" x2="540" y2="105" class="arrow"/>
+  <rect x="540" y="70" width="130" height="70" class="box"/><text x="605" y="110" text-anchor="middle">Gemini API</text>
+  <line x1="670" y1="105" x2="710" y2="105" class="arrow"/>
+  <rect x="710" y="70" width="120" height="70" class="box accent"/><text x="770" y="110" text-anchor="middle">Validation</text>
+  <line x1="830" y1="105" x2="870" y2="105" class="arrow"/>
+  <rect x="870" y="70" width="90" height="70" class="box"/><text x="915" y="110" text-anchor="middle">UI</text>
+</svg>
+

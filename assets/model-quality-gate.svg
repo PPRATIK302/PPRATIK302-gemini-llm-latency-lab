@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="title desc">
+  <title id="title">Model quality gate</title>
+  <desc id="desc">Candidate models are evaluated against a quality threshold, then the fastest passing model is chosen.</desc>
+  <style>text{font-family:Arial,sans-serif;font-size:16px;fill:#17202a}.box{fill:#f7fbff;stroke:#1f77b4;stroke-width:2;rx:6}.gate{fill:#fff8e1;stroke:#f57c00;stroke-width:2}.win{fill:#e8f5e9;stroke:#2e7d32;stroke-width:2}.arrow{stroke:#455a64;stroke-width:2;marker-end:url(#arrow)}</style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#455a64"/></marker></defs>
+  <rect x="40" y="40" width="160" height="55" class="box"/><text x="120" y="74" text-anchor="middle">Fast model</text>
+  <rect x="40" y="145" width="160" height="55" class="box"/><text x="120" y="179" text-anchor="middle">Quality model</text>
+  <line x1="200" y1="68" x2="330" y2="105" class="arrow"/><line x1="200" y1="173" x2="330" y2="145" class="arrow"/>
+  <rect x="330" y="80" width="220" height="90" class="gate"/><text x="440" y="116" text-anchor="middle">Evaluate accuracy</text><text x="440" y="140" text-anchor="middle">against threshold</text>
+  <line x1="550" y1="125" x2="650" y2="125" class="arrow"/>
+  <rect x="650" y="80" width="200" height="90" class="win"/><text x="750" y="116" text-anchor="middle">Choose fastest</text><text x="750" y="140" text-anchor="middle">passing model</text>
+</svg>
+

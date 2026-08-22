@@ -1,0 +1,33 @@
+{"text":"I was charged twice for my April invoice.","label":"billing","ambiguous":false}
+{"text":"Can you explain why my receipt shows sales tax?","label":"billing","ambiguous":false}
+{"text":"The refund for my canceled plan never arrived.","label":"billing","ambiguous":false}
+{"text":"My credit card was declined even though it works elsewhere.","label":"billing","ambiguous":false}
+{"text":"I need a copy of last year's billing statements.","label":"billing","ambiguous":false}
+{"text":"The invoice total looks different from the quote.","label":"billing","ambiguous":false}
+{"text":"A discount code did not apply at checkout.","label":"billing","ambiguous":false}
+{"text":"Is there a cheaper plan for nonprofits?","label":"billing","ambiguous":true}
+{"text":"The API returns a 500 error after the latest release.","label":"technical","ambiguous":false}
+{"text":"My webhook times out after ten seconds.","label":"technical","ambiguous":false}
+{"text":"The SDK install command fails on Windows.","label":"technical","ambiguous":false}
+{"text":"The dashboard chart does not load in Firefox.","label":"technical","ambiguous":false}
+{"text":"I see an invalid JSON response from the endpoint.","label":"technical","ambiguous":false}
+{"text":"How do I rotate an API token without downtime?","label":"technical","ambiguous":true}
+{"text":"The search feature returns unrelated documents.","label":"technical","ambiguous":false}
+{"text":"Your status page says all systems are working, but my app is down.","label":"technical","ambiguous":true}
+{"text":"I cannot sign in after resetting my password.","label":"account","ambiguous":false}
+{"text":"Please change the email address on my account.","label":"account","ambiguous":false}
+{"text":"My profile name is misspelled.","label":"account","ambiguous":false}
+{"text":"Two-factor authentication locked me out.","label":"account","ambiguous":false}
+{"text":"Please delete my workspace and user account.","label":"account","ambiguous":false}
+{"text":"I lost access after my teammate changed permissions.","label":"account","ambiguous":true}
+{"text":"How do I invite another admin?","label":"account","ambiguous":false}
+{"text":"My login works on mobile but not desktop.","label":"account","ambiguous":true}
+{"text":"What are your support hours?","label":"general","ambiguous":false}
+{"text":"Do you have a public roadmap?","label":"general","ambiguous":false}
+{"text":"Where can I find release notes?","label":"general","ambiguous":false}
+{"text":"Can I use the product for a university class?","label":"general","ambiguous":false}
+{"text":"Which countries do you support?","label":"general","ambiguous":false}
+{"text":"I am not sure whether this is a bug or a setting.","label":"general","ambiguous":true}
+{"text":"Tell me the difference between the starter and pro plans.","label":"general","ambiguous":true}
+{"text":"Can someone contact me about a partnership?","label":"general","ambiguous":false}
+

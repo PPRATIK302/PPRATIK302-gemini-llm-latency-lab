@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">Sequential versus parallel execution</title>
+  <desc id="desc">Sequential work waits for each service, while parallel work starts independent services together.</desc>
+  <style>text{font-family:Arial,sans-serif;font-size:16px;fill:#17202a}.bar1{fill:#1f77b4}.bar2{fill:#2e7d32}.axis{stroke:#455a64;stroke-width:2}</style>
+  <text x="50" y="55">Sequential</text><line x1="170" y1="50" x2="820" y2="50" class="axis"/>
+  <rect x="180" y="30" width="230" height="40" class="bar1"/><text x="295" y="56" text-anchor="middle" fill="#fff">Documentation search</text>
+  <rect x="410" y="30" width="260" height="40" class="bar2"/><text x="540" y="56" text-anchor="middle" fill="#fff">Account lookup</text>
+  <text x="50" y="170">Parallel</text><line x1="170" y1="165" x2="820" y2="165" class="axis"/>
+  <rect x="180" y="120" width="230" height="40" class="bar1"/><text x="295" y="146" text-anchor="middle" fill="#fff">Documentation search</text>
+  <rect x="180" y="175" width="260" height="40" class="bar2"/><text x="310" y="201" text-anchor="middle" fill="#fff">Account lookup</text>
+  <text x="180" y="250">Same individual service speed, less idle waiting.</text>
+</svg>
+

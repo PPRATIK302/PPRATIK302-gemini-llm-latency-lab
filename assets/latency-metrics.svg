@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="220" viewBox="0 0 860 220" role="img" aria-labelledby="title desc">
+  <title id="title">Latency timeline metrics</title>
+  <desc id="desc">Timeline showing request start, first token, final token, TTFT, and total latency.</desc>
+  <style>text{font-family:Arial,sans-serif;font-size:16px;fill:#17202a}.line{stroke:#455a64;stroke-width:3}.tick{stroke:#1f77b4;stroke-width:4}.span{stroke:#2e7d32;stroke-width:8;opacity:.35}.span2{stroke:#f57c00;stroke-width:8;opacity:.35}</style>
+  <line x1="80" y1="110" x2="780" y2="110" class="line"/>
+  <line x1="100" y1="75" x2="100" y2="145" class="tick"/><text x="100" y="170" text-anchor="middle">request start</text>
+  <line x1="330" y1="75" x2="330" y2="145" class="tick"/><text x="330" y="170" text-anchor="middle">first token</text>
+  <line x1="740" y1="75" x2="740" y2="145" class="tick"/><text x="740" y="170" text-anchor="middle">final token</text>
+  <line x1="105" y1="55" x2="325" y2="55" class="span"/><text x="215" y="45" text-anchor="middle">TTFT</text>
+  <line x1="105" y1="35" x2="735" y2="35" class="span2"/><text x="420" y="25" text-anchor="middle">total response latency</text>
+</svg>
+

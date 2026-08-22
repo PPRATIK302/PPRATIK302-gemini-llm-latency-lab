@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-labelledby="title desc">
+  <title id="title">Continuous optimization loop</title>
+  <desc id="desc">Measure, locate the bottleneck, optimize, and evaluate quality and latency repeatedly.</desc>
+  <style>text{font-family:Arial,sans-serif;font-size:16px;fill:#17202a}.node{fill:#f7fbff;stroke:#1f77b4;stroke-width:2}.arrow{stroke:#455a64;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#455a64"/></marker></defs>
+  <circle cx="380" cy="65" r="50" class="node"/><text x="380" y="71" text-anchor="middle">Measure</text>
+  <circle cx="610" cy="160" r="62" class="node"/><text x="610" y="155" text-anchor="middle">Find</text><text x="610" y="177" text-anchor="middle">bottleneck</text>
+  <circle cx="380" cy="255" r="55" class="node"/><text x="380" y="261" text-anchor="middle">Optimize</text>
+  <circle cx="150" cy="160" r="65" class="node"/><text x="150" y="154" text-anchor="middle">Re-evaluate</text><text x="150" y="176" text-anchor="middle">quality + latency</text>
+  <path d="M425 88 C500 98 550 115 575 135" class="arrow"/>
+  <path d="M575 187 C540 220 485 240 435 250" class="arrow"/>
+  <path d="M325 250 C260 235 210 210 180 185" class="arrow"/>
+  <path d="M180 135 C225 95 285 75 330 68" class="arrow"/>
+</svg>
+

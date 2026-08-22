@@ -1,0 +1,43 @@
+[
+  {
+    "id": "DOC-001",
+    "title": "Refund timing",
+    "text": "Refunds are issued to the original payment method. Most card refunds appear within five to ten business days after approval."
+  },
+  {
+    "id": "DOC-002",
+    "title": "Invoice tax details",
+    "text": "Invoices list regional tax separately when local rules require it. Billing admins can download receipts from the billing settings page."
+  },
+  {
+    "id": "DOC-003",
+    "title": "Webhook timeout troubleshooting",
+    "text": "Webhook endpoints should respond within ten seconds. Retry failed webhook events from the developer console after fixing network or server issues."
+  },
+  {
+    "id": "DOC-004",
+    "title": "API token rotation",
+    "text": "Create a new API token, deploy it to your application, verify traffic, and then revoke the old token. Never log tokens or commit them to source control."
+  },
+  {
+    "id": "DOC-005",
+    "title": "Account recovery",
+    "text": "Users locked out by two-factor authentication should use recovery codes or contact an organization admin to reset authentication settings."
+  },
+  {
+    "id": "DOC-006",
+    "title": "Admin invitations",
+    "text": "Workspace owners can invite admins from the members page. The invitee must accept the email invitation before permissions become active."
+  },
+  {
+    "id": "DOC-007",
+    "title": "Support availability",
+    "text": "Standard support is available Monday through Friday. Urgent incidents can be submitted from the support portal."
+  },
+  {
+    "id": "DOC-008",
+    "title": "Release notes",
+    "text": "Release notes summarize new features, bug fixes, and known issues. They are published in the documentation site after each release."
+  }
+]
+
