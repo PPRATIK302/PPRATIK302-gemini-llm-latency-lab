@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gemini-llm-latency-lab"
+version = "0.1.0"
+description = "Educational latency laboratory for Google Gemini LLM applications."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Latency Lab Contributors" }]
+dependencies = [
+  "fastapi",
+  "google-genai",
+  "httpx",
+  "matplotlib",
+  "pandas",
+  "pydantic",
+  "python-dotenv",
+  "scikit-learn",
+  "streamlit",
+  "uvicorn",
+]
+
+[project.optional-dependencies]
+dev = ["mypy", "pytest", "pytest-asyncio", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+asyncio_mode = "auto"
+markers = [
+  "live: optional tests that call the real Gemini API",
+]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests", "scripts", "dashboard"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC", "S"]
+ignore = ["S101"]
+
+[tool.mypy]
+python_version = "3.11"
+mypy_path = "src"
+packages = ["latency_lab"]
+ignore_missing_imports = true
+strict = false

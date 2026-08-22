@@ -1,0 +1,11 @@
+fastapi
+google-genai
+httpx
+matplotlib
+pandas
+pydantic
+python-dotenv
+scikit-learn
+streamlit
+uvicorn
+-e .
